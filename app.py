@@ -10,7 +10,7 @@ st.set_page_config(page_title="CookPal - AI Cooking Assistant", layout="centered
 st.markdown("## 🍳 CookPal – Your Friendly AI Cooking Companion")
 st.markdown("Ask me anything about cooking, recipes, ingredients, or meal plans!")
 
-user_input = st.chat_input("What do want to cook? Describe it...")
+user_input = st.chat_input("What do want to cook? Name it Have it's Recipe...")
 
 if user_input:
     with st.chat_message("user"):
